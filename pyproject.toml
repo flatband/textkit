@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "textkit"
+dynamic = ["version"]
+description = "Universal class to send emails through SMTP protocol"
+requires-python = ">=3.9"
+dependencies = [""]
+
+[tool.setuptools.packages.find]
+include = ["textkit*"]
+
+[tool.setuptools_scm]
