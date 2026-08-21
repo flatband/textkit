@@ -5,7 +5,7 @@ _SCRIPT_STYLE_RE = re.compile(r"<(script|style)\b[^>]*>.*?</\1>", re.I | re.S)
 _LINK_RE = re.compile(r'<a\b[^>]*\bhref=["\']([^"\']*)["\'][^>]*>(.*?)</a>', re.I | re.S)
 _BR_RE = re.compile(r"<br\s*/?>", re.I)
 _BLOCK_RE = re.compile(r"</?(p|div|h[1-6])\b[^>]*>", re.I)
-_LINE_RE = re.compile(r"<(li|tr)\b[^>]*>", re.I)
+_LINE_RE = re.compile(r"<(li|tr|td|th)\b[^>]*>", re.I)
 _TAG_RE = re.compile(r"<[^>]+>")
 
 
