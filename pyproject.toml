@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "textkit"
 dynamic = ["version"]
-description = "Universal class to send emails through SMTP protocol"
+description = "Small functions for editing text"
 requires-python = ">=3.9"
 dependencies = [""]
 
